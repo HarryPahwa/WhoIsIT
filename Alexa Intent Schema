@@ -1,0 +1,16 @@
+{
+  "intents": [
+    {
+     "intent":"GetDoorbell" 
+    },
+    {
+     "intent":"AMAZON.HelpIntent" 
+    },
+    {
+     "intent":"AMAZON.StopIntent" 
+    },
+    {
+     "intent":"AMAZON.CancelIntent" 
+    }
+  ]
+}

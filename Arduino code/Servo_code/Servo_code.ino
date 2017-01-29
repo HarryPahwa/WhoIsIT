@@ -8,7 +8,7 @@
 */
 
 #include <Servo.h>
-const int knockSensor = "A0"; // the piezo is connected to analog pin 0
+const int knockSensor = A0; // the piezo is connected to analog pin 0
 const int threshold = 100;  // threshold value to decide when the detected sound is a knock or not
 
 Servo myservo;  // create servo object to control a servo
@@ -24,7 +24,12 @@ void setup() {
   pinMode(ledPin,OUTPUT);// attaches the servo on pin 9 to the servo object
 }
  
-
+void knock(){
+  delay(1000);
+  Serial.begin(19200);
+  Serial.print("Go");
+  delay(5000);
+}
 void loop() {
   sensorReading = analogRead(knockSensor);
   for (pos = 0; pos <= 180; pos += 1) { // goes from 0 degrees to 180 degrees
@@ -39,7 +44,8 @@ void loop() {
     digitalWrite(ledPin, ledState);
     // send the string "Knock!" back to the computer, followed by newline
     Serial.println("Knock!");
-    Serial.print(sensorReading);
+    knock();
+    //Serial.print(sensorReading);
     Serial.print(i);
     i=i+1;
   }// waits 15ms for the servo to reach the position

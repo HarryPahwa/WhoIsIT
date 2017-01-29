@@ -124,21 +124,23 @@ function testGet(response) {
     var request = require("request")
 
     var url = "https://who-is-it-alexa-rpi-project.firebaseio.com/DoorBell/Name/.json"
-    var neededName="LOL";
+    var neededName="Doesnt work";
     request({
         url: url,
         json: true
     }, function (error, response, body) {
 
-    //if (!error && response.statusCode === 200) {
+    if (!error && response.statusCode === 200) {
         console.log(body) // Print the json response
         neededName=JSON.stringify(body);
         console.log("Needed "+neededName)
-        
-    //}
+    else{
+        console.log(response.statusCode);    
+    }
+    }
 })
 
-response(JSON.stringify(neededName));
+response(neededName);
     /*var http = require('http');
     var options = {
         host: 'who-is-it-alexa-rpi-project.firebaseio.com',

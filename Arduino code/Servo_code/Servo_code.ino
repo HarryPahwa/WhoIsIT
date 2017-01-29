@@ -26,7 +26,7 @@ void setup() {
  
 void knock(){
   delay(1000);
-  Serial.begin(19200);
+  Serial.begin(115200);
   Serial.print("Go");
   delay(5000);
 }

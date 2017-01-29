@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "who-is-it-alexa-rpi-project",
+  "private_key_id": "8a85de989810f06fc96d59521faec06bcae736a4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCvjLgB9MPyGbLa\nLoGfB7ATvN57MFJNWLa8wqwa+Cf2nE3OyBc16hxLGlPcHdtlYiQBwKD3npqb4hpp\ntIIbiPQbyO22M6HgDOt5PvAc/QQPVktv3w41dYoSD/ZONGngEOZfaO1YPouOSjrH\nz6CYj0ujWx5fKgLw3Oj0cHqGHdIn4m76VsZfU33BdpF/HVOWknrKNiRb5fIJN/HX\nQDjtr4goZ2+KC92+AOoE2hBhyxVRBE1cmSf+sQWmKx4HPvU6IjhRKzEr4MHOiuPS\nGSgpSnbBaHhHV145WlRG/23Bo3pxYutj4mGU/Qx0L3wwPHM+gMs5nDVi+rwneDqT\nfyrkiDU7AgMBAAECggEAAXOqeemqTTBFOGS2Ebigjik7tc0agSVAraL2hWqT+ggk\n5JbnCj0basuW8fUVQWtkXNdY/XNEWBGwojsp8ExbqHcq8BzRM+cnc2M/3R2CkRXn\nnc88cNi+AZQ8Nz1busyo+xUFEXvC77RRdCGVdG2K9JjmUWcpixBopMzhVoacnFPR\nkTzxuN8ODAQUVHC/1MK5WifCOftan0rsJeLO4CLzSw5vVxf8I5/RIKPlGv37dyUU\nj2OqYOGKvtWueJoJy9gA69WcyXPEeWB1bse486ree2m/KGQRVPopPO+T+6Dq14NL\nHLRmOdhThrlOVY8xhdDdlP6mwLvnkDoHOPerDmQD4QKBgQDZDPDkj3aVBori7/IL\nw8Kn2cQP9UmzHHai2JATS5TM07th555+4qTf2jMrzcVjhCH13qmXUOwK/UtUMMz1\njXV3CKwmao6NI2obeCM47h494cg0NwufbdsDFq2bkxsXZQmsFFE6i9Wopva0ZvPH\nJEWhk0XzepykcFJBEi5zIMHzIwKBgQDPDUZBTwYKO1VRvPJ5LTxnx00O2wAX44YP\nUk9u3qTrgTLzaC1/KNdvBzeLXLgEZajbhWLsDTd1SUNN9G76D/UhtsSnEGjpgC2g\nF0oih8YhH8EPGSnea2HubVYcPTjQbKOUVIVgi0ExPT3y1Ne/dp+UdgyxqqeihFSF\nyaHyTiHDCQKBgAYASZjILqsoJybnI3YXz4X8i2M1kPgWzWDrQ/CEonSXVhL66HLx\nqUVXLxsC8XYy7Q1zPpUkc6JKJo8JWmFfq+PCpZ/aSl60n/Zqd+7XBpcHaxWmf/fE\nfc20DtDCXHllHcNYPHa17w5er2uFfTAAXLx+6ew1c6dIQ73w1r/wI+ypAoGAK6Yo\nwWvfYhjQC8NBerpGmboyTIdupZqZkHFRvZXCPsOl8hpsPPpnMEjdNMv/Hy4vQtgD\n2q+OmXMwdSaqnpzumITnQDD9bPxQogdG4bCt3B3NnVk4smMA6jqyhJGDgKzmb0bC\nN3Aj9jVq8d5c/UgMrEeWtX28iU5MY0f2lBZUl8ECgYEAlaPP1yvrpF5YCbGRuNSf\ngwXpHYuyxTtuoVMcL9lGPM17bj1hQq+8VDgayJVb89DSZEqpo2IEaaHwIXlVYVnB\nl/H9+ZePbmchBTaUVs28J4hZkNeio3Xf4FkBKuK1MDENSyz6yRG7hw07nPJ0foeS\nfkz70GYdRMkv3MG0ev4rjds=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-50p64@who-is-it-alexa-rpi-project.iam.gserviceaccount.com",
+  "client_id": "112872739446882236577",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-50p64%40who-is-it-alexa-rpi-project.iam.gserviceaccount.com"
+}

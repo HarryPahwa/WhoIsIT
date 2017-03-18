@@ -58,10 +58,10 @@ def main():
         print json.dumps(response, indent=4, sort_keys=True)	#Print it out and make it somewhat pretty.
 	a=response["responses"][0]["faceAnnotations"][0]["angerLikelihood"]
 	print a	
-	#if a=="VERY_UNLIKELY"
+	if a=="VERY_UNLIKELY"
 	putdata={"Okay": "There is someone at the door. Image analysis tells me that it is very unlikely that they are angry. It is safe to open the door. Harry" }
-	#else
-	#putdate={"Okay": "There is someone at the door. Image analysis tells me that they are angry. Please exercise caution. Harry"}
+	else
+	putdate={"Okay": "There is someone at the door. Image analysis tells me that they are angry. Please exercise caution. Harry"}
 	req=urllib2.Request(url)
 	req.add_header('Content-Type','application/json')
 	data=json.dumps(putdata)
